@@ -1,0 +1,194 @@
+/* Загальні стилі */
+
+:root{
+    --primery-bg-color: #FFFFFF;
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;}
+
+body{
+    background-color: var(--primery-bg-color);
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;}
+    
+      
+
+
+/* Хедер */
+.cap ul{list-style: none;}
+.cap a{text-decoration: none;}
+
+.logo1{color: var(--accent-color);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;}
+
+.logo2{color: #000000;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;}
+
+.cap-nav a{
+    color: #212121; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;}
+.cap-nav a:hover, 
+.cap-nav a:focus{color: var(--accent-color);}
+.cap-nav .current{color: var(--accent-color);}
+
+.cap-contact a{
+    color: #757575; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;} 
+.cap-contact a:hover, 
+.cap-contact a:focus{color: var(--accent-color);}
+
+
+/* Студія */
+.hero{background-color: #2F303A;} 
+.hero h1{color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;}
+
+.hero-button{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;} 
+
+.hero-button:hover{
+    background-color:#188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;}
+
+    
+.features h3{color: #212121;
+            font-weight: 700;
+            line-height: 1.1;
+            text-transform: uppercase;}
+
+.features ul{list-style: none;}
+
+.work h2{color: var(--title-text-color); 
+        font-size: 36px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;}
+
+.work ul{list-style: none;}
+
+.team{background-color: #F5F4FA;}
+.team ul{list-style: none;}
+.team h2{color: var(--title-text-color); 
+        font-size: 36px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;}
+
+.team h3{color:#212121;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;}
+
+.team p{font-size: 16px;
+        line-height: 1.2;
+        text-align: center;}
+
+
+/* Портфоліо */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+
+.projects{background-color: var(--primery-bg-color);}
+
+.button{
+    color: #212121;
+    background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;}
+    
+.button:hover, 
+.button:focus, 
+.button:active{
+background-color: var(--accent-color);
+color: #FFFFFF;}
+
+.projects h3{color: var(--title-text-color);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;}
+
+.projects ul{list-style: none;}
+.projects p{font-size: 16px;
+            line-height: 1.9;}
+           
+
+
+/* Підвал */
+.basement{background-color: #2F303A;}
+.basement ul{list-style: none;}
+
+.logo3{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;}
+
+
+address{font-style: normal; 
+        color: #FFFFFF;}
+        
+
+.basement-contact a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;}
+
+.basement-contact a:hover, 
+.basement-contact a:focus{
+    color: var(--accent-color);}
