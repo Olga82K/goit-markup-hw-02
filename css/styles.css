@@ -14,48 +14,51 @@ body{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;}
+
+.link{text-decoration: none;
+    text-decoration-color: none;
+    font-style: none;}
+
+.list{list-style: none;}
     
       
 
 
 /* Хедер */
-.cap ul{list-style: none;}
-.cap a{text-decoration: none;}
 
 .logo1{color: var(--accent-color);
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;}
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;}
 
 .logo2{color: #000000;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;}
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;}
 
-.cap-nav a{
+.cap-nav{
     color: #212121; 
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;}
-.cap-nav a:hover, 
-.cap-nav a:focus{color: var(--accent-color);}
-.cap-nav .current{color: var(--accent-color);}
+.cap-nav:hover, 
+.cap-nav:focus{color: var(--accent-color);}
+.current{color: var(--accent-color);}
 
-.cap-contact a{
+.cap-contact{
     color: #757575; 
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;} 
-.cap-contact a:hover, 
-.cap-contact a:focus{color: var(--accent-color);}
+.cap-contact:hover, 
+.cap-contact:focus{color: var(--accent-color);}
 
 
 /* Студія */
@@ -90,22 +93,23 @@ body{
     
 .features h3{color: #212121;
             font-weight: 700;
+            font-size: 14px;
             line-height: 1.1;
             text-transform: uppercase;}
 
-.features ul{list-style: none;}
 
-.work h2{color: var(--title-text-color); 
-        font-size: 36px;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.2;
-        text-align: center;}
 
-.work ul{list-style: none;}
+.work{color: var(--title-text-color); 
+    font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;}
+
+
 
 .team{background-color: #F5F4FA;}
-.team ul{list-style: none;}
+
 .team h2{color: var(--title-text-color); 
         font-size: 36px;
         font-weight: 700;
@@ -162,7 +166,6 @@ color: #FFFFFF;}
             line-height: 2;
             letter-spacing: 0.06em;}
 
-.projects ul{list-style: none;}
 .projects p{font-size: 16px;
             line-height: 1.9;}
            
@@ -170,10 +173,9 @@ color: #FFFFFF;}
 
 /* Підвал */
 .basement{background-color: #2F303A;}
-.basement ul{list-style: none;}
 
-.logo3{
-    color: #FFFFFF;
+
+.logo3{color: #FFFFFF;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -185,10 +187,10 @@ address{font-style: normal;
         color: #FFFFFF;}
         
 
-.basement-contact a{
+.basement-contact{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;}
 
-.basement-contact a:hover, 
-.basement-contact a:focus{
+.basement-contact:hover, 
+.basement-contact:focus{
     color: var(--accent-color);}
